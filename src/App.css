@@ -11,18 +11,6 @@
   position: relative;
 }
 
-@media only screen and (max-width: 500px) {
-  #rectangular {
-    margin-top: 0px;
-  }
-
-  #hero-title {
-    top: 10px;
-    left: 36px;
-    font-size: 8px;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   #rectangular {
     margin-top: -50px;
@@ -51,4 +39,20 @@
   width: 50%;
   height: auto;
   margin-left: -20px;
+}
+
+@media only screen and (max-width: 500px) {
+  #rectangular {
+    margin-top: 0px;
+  }
+
+  #hero-title {
+    top: 10px;
+    left: 36px;
+    font-size: 8px;
+  }
+
+  #debit-card {
+    width: 40%;
+  }
 }
