@@ -111,6 +111,10 @@ h1 {
     height: 6px;
   }
 
+  #text-container {
+    font-size: 12px;
+  }
+
   #services-container {
     flex-direction: column;
     height: 900px;
@@ -122,6 +126,6 @@ h1 {
   }
 
   #service {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
