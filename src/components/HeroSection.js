@@ -10,7 +10,7 @@ const HeroSection = () => {
             <h1>Safe and smart way to pay online.</h1>
             <h1>For just about everything.</h1>
             <h4>Your FirstBank Visa® Debit Card.</h4>
-            <img id='debit-card' src={require('../images/personal_debit_card_firstbank2.png').default} alt=''/> 
+            <img id='debit-card' src="https://mindvolt-project.s3.us-east-2.amazonaws.com/personal_debit_card_firstbank2.png" alt=''/> 
           </div>
             
         </div>
