@@ -17,7 +17,7 @@ const AboutSection = () => {
       <div id="right-item">
         <img
           id="about-img"
-          src={require("../images/pexels-lina-kivaka-3395282.jpg").default}
+          src="https://mindvolt-project.s3.us-east-2.amazonaws.com/pexels-lina-kivaka-3395282.jpg"
           alt=""
         />
       </div>
