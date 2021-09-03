@@ -3,6 +3,7 @@ import TextSection from './components/TextSection';
 import { objectOne, objectTwo } from './components/Data';
 import Services from './components/Services';
 import './App.css';
+import AboutSection from './components/AboutSection';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <TextSection {... objectOne}/>
       <Services/>
       <TextSection {... objectTwo}/>
+      <AboutSection/>
     </div>
   );
 }

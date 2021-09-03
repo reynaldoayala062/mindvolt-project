@@ -80,6 +80,49 @@ h1 {
   height: 50%;
 }
 
+#about-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about-img {
+  width: 100%;
+  height: auto;
+}
+
+#left-item {
+  float: left;
+  width: 25%;
+  height: auto;
+}
+
+#middle-item {
+  float: left;
+  width: 50%;
+  height: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 148, 12),
+    rgb(255, 196, 0)
+  );
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+#right-item {
+  float: right;
+  width: 25%;
+  height: auto;
+}
+
+h5 {
+  color: #4242aa;
+  font-size: 38px;
+  font-family: Italiana, serif;
+  padding: 50px;
+  margin-top: 120px;
+}
+
 @media screen and (max-width: 1300px) {
   #hero-title {
     top: 50px;
@@ -89,6 +132,12 @@ h1 {
 
   #debit-card {
     width: 40%;
+  }
+
+  h5 {
+    font-size: 38px;
+    padding: 30px;
+    margin-top: 80px;
   }
 }
 
@@ -129,5 +178,11 @@ h1 {
   #service {
     font-size: 14px;
     width: 50%;
+  }
+
+  h5 {
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 30px;
   }
 }
