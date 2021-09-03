@@ -43,6 +43,41 @@
   font-family: Italiana, serif;
   margin: auto;
   width: 67%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  color: #4242aa;
+}
+
+#services-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+  width: 90%;
+  height: 300px;
+}
+
+#service {
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  font-size: 14px;
+  font-family: Italiana, serif;
+}
+
+#service-image {
+  width: 50%;
+  height: 50%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -74,5 +109,19 @@
 
   #strip {
     height: 6px;
+  }
+
+  #services-container {
+    flex-direction: column;
+    height: 900px;
+  }
+
+  #service-image {
+    width: 120%;
+    height: 40%;
+  }
+
+  #service {
+    font-size: 12px;
   }
 }
