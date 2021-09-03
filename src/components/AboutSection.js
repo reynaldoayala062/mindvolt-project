@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div id="left-item">
         <img
           id="about-img"
-          src={require("../images/pexels-mart-production-7641408.jpg").default}
+          src="https://mindvolt-project.s3.us-east-2.amazonaws.com/pexels-mart-production-7641408.jpg"
           alt=""
         />
       </div>
