@@ -4,6 +4,7 @@ import '../App.css'
 const HeroSection = () => {
     return (
         <div id='container'>
+          <div id='strip'></div><br/>
           <img id='rectangular' src={require('../images/pexels-andrea-piacquadio-3807763.jpg').default} alt='hero'/> 
           <div id="hero-title">
             <h1>Safe and smart way to pay online.</h1>
