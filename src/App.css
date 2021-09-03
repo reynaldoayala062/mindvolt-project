@@ -5,33 +5,19 @@
 }
 
 #rectangular {
-  margin-top: -150px;
   width: 100%;
   height: auto;
   position: relative;
 }
 
-@media only screen and (max-width: 800px) {
-  #rectangular {
-    margin-top: -50px;
-  }
-
-  #hero-title {
-    top: 20px;
-    left: 36px;
-    font-size: 10px;
-  }
-}
-
 #hero-title {
   position: absolute;
-  top: 150px;
-  left: 66px;
-  font-size: auto;
+  top: 50px;
+  left: 56px;
+  font-size: 24px;
   color: #4242aa;
   text-align: left;
   font-family: Italiana, serif;
-  font-size: 25px;
 }
 
 #debit-card {
@@ -41,7 +27,23 @@
   margin-left: -20px;
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
+  #rectangular {
+    margin-top: -20px;
+  }
+
+  #hero-title {
+    top: 50px;
+    left: 56px;
+    font-size: 18px;
+  }
+
+  #debit-card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
   #rectangular {
     margin-top: 0px;
   }
