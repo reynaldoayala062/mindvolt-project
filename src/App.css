@@ -42,7 +42,7 @@
   font-size: 14px;
   font-family: Italiana, serif;
   margin: auto;
-  width: 67%;
+  width: 55%;
   height: auto;
   align-items: center;
   justify-content: center;
@@ -117,12 +117,13 @@ h1 {
 
   #services-container {
     flex-direction: column;
-    height: 900px;
+    height: 1100px;
   }
 
   #service-image {
     width: 120%;
     height: 40%;
+    margin-left: -10px;
   }
 
   #service {
