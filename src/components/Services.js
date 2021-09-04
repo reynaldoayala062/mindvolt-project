@@ -10,7 +10,7 @@ const Services = () => {
                 <p>Take care of your monthly payments online, with ease</p>
             </div>
             <div id='service'>
-                <img id='service-image' src={require('../images/undraw_Music_re_a2jk.svg').default} alt='' />
+                <img id='service-image' src={require('../images/undraw_Listening_re_c2w0.svg').default} alt='' />
                 <h1>Streaming services</h1>
                 <p>Pay for subcription such as music, movies and TV streaming</p>
             </div>
