@@ -32,7 +32,7 @@
   height: 10px;
   background-image: linear-gradient(
     to right,
-    rgb(238, 121, 12),
+    rgb(238, 166, 12),
     rgb(255, 196, 0)
   );
 }
@@ -40,7 +40,6 @@
 #text-container {
   color: #4242aa;
   font-size: 14px;
-  font-family: Italiana, serif;
   margin: auto;
   width: 55%;
   height: 300%;
@@ -55,6 +54,7 @@ p {
 
 h1 {
   color: #4242aa;
+  font-family: Italiana, serif;
 }
 
 #services-container {
@@ -74,7 +74,6 @@ h1 {
   justify-content: center;
   width: 33%;
   font-size: 14px;
-  font-family: Italiana, serif;
   padding: 60px;
 }
 
